@@ -199,7 +199,7 @@
             "height": 128.0,
             "type": "Text Display",
             "properties": {
-              "topic": "/SmartDashboard/Intake Roller/mechanism/Preshooter  RollerRoot/Preshooter  Roller/angle",
+              "topic": "/SmartDashboard/Preshooter Roller/mechanism/Preshooter  RollerRoot/Preshooter  Roller/angle",
               "period": 0.06,
               "data_type": "double",
               "show_submit_button": false
