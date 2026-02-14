@@ -1,0 +1,46 @@
+{
+  "version": 1.0,
+  "grid_size": 128,
+  "tabs": [
+    {
+      "name": "Climber",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "actualPos",
+            "x": 768.0,
+            "y": 0.0,
+            "width": 640.0,
+            "height": 768.0,
+            "type": "Graph",
+            "properties": {
+              "topic": "/SmartDashboard/frc3620/Climber/actualPos",
+              "period": 0.033,
+              "data_type": "double",
+              "time_displayed": 5.0,
+              "color": 4278238420,
+              "line_width": 2.0
+            }
+          },
+          {
+            "title": "length",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 768.0,
+            "height": 768.0,
+            "type": "Graph",
+            "properties": {
+              "topic": "/SmartDashboard/Climber/mechanism/ClimberRoot/Setpoint/length",
+              "period": 0.033,
+              "data_type": "double",
+              "time_displayed": 5.0,
+              "color": 4278238420,
+              "line_width": 2.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
