@@ -1,0 +1,76 @@
+{
+  "version": 1.0,
+  "grid_size": 128,
+  "tabs": [
+    {
+      "name": "Health",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "Hardware Alert",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1472.0,
+            "height": 640.0,
+            "type": "Alerts",
+            "properties": {
+              "topic": "/SmartDashboard/frc3620/Hardware Alert",
+              "period": 0.06
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tab 2",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "setAngle",
+            "x": 512.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Command",
+            "properties": {
+              "topic": "/SmartDashboard/frc3620/IntakeShoulder/setAngle",
+              "period": 0.06,
+              "show_type": true,
+              "maximize_button_space": false
+            }
+          },
+          {
+            "title": "actualPos",
+            "x": 512.0,
+            "y": 384.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/frc3620/IntakeShoulder/actualPos",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "setPos",
+            "x": 640.0,
+            "y": 384.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/frc3620/IntakeShoulder/setPos",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
