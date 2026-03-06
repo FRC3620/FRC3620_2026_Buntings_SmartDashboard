@@ -1,0 +1,649 @@
+{
+ "grid_size": 128,
+ "tabs": [
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 640.0,
+      "properties": {
+       "period": 0.06,
+       "topic": "/SmartDashboard/Health Alerts"
+      },
+      "title": "Health Alerts",
+      "type": "Alerts",
+      "width": 512.0,
+      "x": 896.0,
+      "y": 0.0
+     },
+     {
+      "height": 256.0,
+      "properties": {
+       "period": 0.06,
+       "sort_options": false,
+       "topic": "/SmartDashboard/Auto Mode"
+      },
+      "title": "Auto Mode",
+      "type": "ComboBox Chooser",
+      "width": 384.0,
+      "x": 0.0,
+      "y": 0.0
+     }
+    ],
+    "layouts": [
+     {
+      "children": [
+       {
+        "height": 128.0,
+        "properties": {
+         "data_type": "boolean",
+         "false_color": 4294198070,
+         "false_icon": "None",
+         "period": 0.06,
+         "topic": "/SmartDashboard/Health/Ok",
+         "true_color": 4283215696,
+         "true_icon": "None"
+        },
+        "title": "Ok",
+        "type": "Boolean Box",
+        "width": 128.0,
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "height": 128.0,
+        "properties": {
+         "data_type": "string",
+         "period": 0.06,
+         "show_submit_button": false,
+         "topic": "/SmartDashboard/Health/Overall"
+        },
+        "title": "Overall",
+        "type": "Text Display",
+        "width": 128.0,
+        "x": 0.0,
+        "y": 0.0
+       }
+      ],
+      "height": 384.0,
+      "properties": {
+       "label_position": "TOP"
+      },
+      "title": "Health",
+      "type": "List Layout",
+      "width": 384.0,
+      "x": 512.0,
+      "y": 0.0
+     }
+    ]
+   },
+   "name": "Drive"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 768.0,
+      "properties": {
+       "color": 4278238420,
+       "data_type": "double",
+       "line_width": 2.0,
+       "period": 0.033,
+       "time_displayed": 5.0,
+       "topic": "/SmartDashboard/frc3620/Climber/actualPos"
+      },
+      "title": "actualPos",
+      "type": "Graph",
+      "width": 640.0,
+      "x": 768.0,
+      "y": 0.0
+     },
+     {
+      "height": 768.0,
+      "properties": {
+       "color": 4278238420,
+       "data_type": "double",
+       "line_width": 2.0,
+       "period": 0.033,
+       "time_displayed": 5.0,
+       "topic": "/SmartDashboard/Climber/mechanism/ClimberRoot/Setpoint/length"
+      },
+      "title": "length",
+      "type": "Graph",
+      "width": 768.0,
+      "x": 0.0,
+      "y": 0.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "Climber"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/frc3620/IntakeShoulder/setAngle"
+      },
+      "title": "setAngle",
+      "type": "Command",
+      "width": 256.0,
+      "x": 512.0,
+      "y": 256.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/frc3620/IntakeShoulder/actualPos"
+      },
+      "title": "actualPos",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 512.0,
+      "y": 384.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/frc3620/IntakeShoulder/setPos"
+      },
+      "title": "setPos",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 640.0,
+      "y": 384.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "Intake Shoulder"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/IntakeRollerSubsytem/Live Tuning"
+      },
+      "title": "Live Tuning",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "height": 256.0,
+      "properties": {
+       "data_type": "double",
+       "end_angle": 90.0,
+       "max_value": 360.0,
+       "min_value": 0.0,
+       "number_of_labels": 8,
+       "period": 0.033,
+       "show_pointer": true,
+       "show_ticks": true,
+       "start_angle": 450.0,
+       "topic": "/SmartDashboard/Intake Roller/mechanism/Intake RollerRoot/Intake Roller/angle",
+       "wrap_value": true
+      },
+      "title": "angle",
+      "type": "Radial Gauge",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Intake Roller/RollerMotor/closedloop/setpoint/position"
+      },
+      "title": "position",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "divisions": 5,
+       "max_value": 5.0,
+       "min_value": -5.0,
+       "period": 0.06,
+       "topic": "/Tuning/Intake Roller/RollerMotor/closedloop/setpoint/velocity",
+       "update_continuously": true
+      },
+      "title": "velocity",
+      "type": "Number Slider",
+      "width": 256.0,
+      "x": 256.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Intake Roller/mechanism/Intake RollerRoot/Intake Roller/angle"
+      },
+      "title": "angle",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 384.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Intake Roller/RollerMotor/closedloop/feedback/kP"
+      },
+      "title": "kP",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 256.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "Intake Roller Subsystem Tuning"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/PreshooterSubystem/Live Tuning"
+      },
+      "title": "Live Tuning",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "height": 256.0,
+      "properties": {
+       "data_type": "double",
+       "end_angle": 90.0,
+       "max_value": 360.0,
+       "min_value": 0.0,
+       "number_of_labels": 8,
+       "period": 0.033,
+       "show_pointer": true,
+       "show_ticks": true,
+       "start_angle": 450.0,
+       "topic": "/SmartDashboard/Preshoter Roller/mechanism/Preshooter RollerRoot/Preshooter Roller/angle",
+       "wrap_value": true
+      },
+      "title": "angle",
+      "type": "Radial Gauge",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Preshooter Roller/RollerMotor/closedloop/setpoint/position"
+      },
+      "title": "position",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "divisions": 5,
+       "max_value": 5.0,
+       "min_value": -5.0,
+       "period": 0.06,
+       "topic": "/Tuning/Preshooter Roller/RollerMotor/closedloop/setpoint/velocity",
+       "update_continuously": true
+      },
+      "title": "velocity",
+      "type": "Number Slider",
+      "width": 256.0,
+      "x": 256.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Preshooter Roller/mechanism/Preshooter  RollerRoot/Preshooter  Roller/angle"
+      },
+      "title": "angle",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 384.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Preshooter  Roller/RollerMotor/closedloop/feedback/kP"
+      },
+      "title": "kP",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 256.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "Preshooter Subsystem Tuning"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Shooter Hood/ShooterHoodMotor/closedloop/feedback/kP"
+      },
+      "title": "kP",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 384.0,
+      "y": 256.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/ShooterHoodSubsystem/Live Tuning"
+      },
+      "title": "Live Tuning",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/ShooterHoodMotor/Down"
+      },
+      "title": "Down",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 384.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/ShooterHoodMotor/Up"
+      },
+      "title": "Up",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 256.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/ShooterHoodMotor/ZeroEncoder"
+      },
+      "title": "ZeroEncoder",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 128.0
+     },
+     {
+      "height": 256.0,
+      "properties": {
+       "data_type": "double",
+       "end_angle": -270.0,
+       "max_value": 360.0,
+       "min_value": 0.0,
+       "number_of_labels": 8,
+       "period": 0.06,
+       "show_pointer": true,
+       "show_ticks": true,
+       "start_angle": 90.0,
+       "topic": "/SmartDashboard/Shooter Hood/mechanism/Shooter HoodRoot/Shooter Hood/angle",
+       "wrap_value": true
+      },
+      "title": "angle",
+      "type": "Radial Gauge",
+      "width": 256.0,
+      "x": 256.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Shooter Hood/mechanism/Shooter HoodRoot/MaxSoft/angle"
+      },
+      "title": "Max Soft",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 640.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Shooter Hood/mechanism/Shooter HoodRoot/MinHard/angle"
+      },
+      "title": "Min Hard",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 512.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Shooter Hood/mechanism/Shooter HoodRoot/MinSoft/angle"
+      },
+      "title": "Min Soft",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 640.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/Shooter Hood/ShooterHoodMotor/closedloop/setpoint/position"
+      },
+      "title": "Set Position",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 256.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/Shooter Hood/mechanism/Shooter HoodRoot/MaxHard/angle"
+      },
+      "title": "Max Hard",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 512.0,
+      "y": 0.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "Shooter Hood Subsystem Tuning"
+  },
+  {
+   "grid_layout": {
+    "containers": [
+     {
+      "height": 128.0,
+      "properties": {
+       "maximize_button_space": false,
+       "period": 0.06,
+       "show_type": true,
+       "topic": "/SmartDashboard/Mechanisms/Commands/shooterSubystem/Live Tuning"
+      },
+      "title": "Live Tuning",
+      "type": "Command",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "height": 256.0,
+      "properties": {
+       "data_type": "double",
+       "end_angle": 90.0,
+       "max_value": 360.0,
+       "min_value": 0.0,
+       "number_of_labels": 8,
+       "period": 0.033,
+       "show_pointer": true,
+       "show_ticks": true,
+       "start_angle": 450.0,
+       "topic": "/SmartDashboard/shoter Roller/mechanism/shooter RollerRoot/shooter Roller/angle",
+       "wrap_value": true
+      },
+      "title": "angle",
+      "type": "Radial Gauge",
+      "width": 256.0,
+      "x": 0.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/shooter Roller/RollerMotor/closedloop/setpoint/position"
+      },
+      "title": "position",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "divisions": 5,
+       "max_value": 5.0,
+       "min_value": -5.0,
+       "period": 0.06,
+       "topic": "/Tuning/shooter Roller/RollerMotor/closedloop/setpoint/velocity",
+       "update_continuously": true
+      },
+      "title": "velocity",
+      "type": "Number Slider",
+      "width": 256.0,
+      "x": 256.0,
+      "y": 128.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/SmartDashboard/shooter Roller/mechanism/shooter  RollerRoot/shooter  Roller/angle"
+      },
+      "title": "angle",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 384.0,
+      "y": 0.0
+     },
+     {
+      "height": 128.0,
+      "properties": {
+       "data_type": "double",
+       "period": 0.06,
+       "show_submit_button": false,
+       "topic": "/Tuning/shooter  Roller/RollerMotor/closedloop/feedback/kP"
+      },
+      "title": "kP",
+      "type": "Text Display",
+      "width": 128.0,
+      "x": 256.0,
+      "y": 256.0
+     }
+    ],
+    "layouts": []
+   },
+   "name": "shooter Subsystem Tuning"
+  }
+ ],
+ "version": 1.0
+}
